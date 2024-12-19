@@ -1,0 +1,390 @@
+@font-face { font-family: ProductSans; src: url('ProductSans.ttf');}
+@font-face { font-family: ProductSans; src: url('ProductSans-Thin.ttf');}
+@font-face { font-family: ProductSans; src: url('ProductSans-Medium.ttf');}
+@font-face { font-family: ProductSans; src: url('ProductSans-Light.ttf');}
+@font-face { font-family: ProductSans; src: url('ProductSans-Italic.ttf');}
+@font-face { font-family: ProductSans; src: url('ProductSans-Regular.ttf');}
+@font-face { font-family: AvenirRegular; src: url('AvenirRegular.ttf');}
+
+
+body {
+  background-color: #141414;
+  background-size: cover;
+  background-size: auto;
+  color: white;
+  font-family: 'ProductSans';
+  /*background-repeat: repeat-y;
+  
+  background-size: auto;
+  background-color: #171F2C; */
+  /* background: rgb(38,4,70)!important;
+  background: linear-gradient(90deg, rgba(38,4,70,1) 0%, rgba(52,65,205,1) 71%, rgba(45,165,247,1) 100%); */
+  
+  margin: 0;
+  padding: 0;
+  /* background-color: black;
+opacity: 1;
+background-image: radial-gradient(grey 0.031rem, black 0.031rem);
+background-size: 0.625rem 0.625rem; */
+
+}
+p {
+ padding: 16px;
+}
+
+hr{
+  margin-top: 1.875rem;
+  margin-bottom: 1.875rem;
+}
+
+h1{
+  font-family: 'ProductSans';
+  font-size: 1.5rem;
+  color: white;
+}
+
+.nav-shadow-class{
+ box-shadow: 0 0.125rem 0.375rem 0 rgba(0,0,0,0.10);
+}
+
+.navbar{
+  text-align: center;
+  background-color: black;
+  border-color: black;
+  border-width: 0.0625rem;
+  border-style: solid;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  position: relative;
+  height: 70px;
+
+}
+
+.navbrandimg {
+  height: 50px;
+  width: 50px;
+  margin-right: 25rem;
+
+}
+
+.nav-link {
+  font-size: 1.8rem;
+  /* margin: 0.313rem 0.625rem 0.313rem 0.625rem; */
+  color: white;
+  margin-left: 0.313rem;
+  margin-right: 0.313rem;
+  letter-spacing: 0.7px;
+  font-family: 'AvenirRegular';
+}
+
+.break{
+  height: 100px;
+}
+
+.nav-link:active{
+  color: white;
+}
+
+.nav-link:visited{
+  color: white;
+}
+
+.nav-link:hover {
+  color: white;
+}
+
+.active{
+  color: white;
+}
+
+.dropdown-item {
+  background-color: black;
+  color: white;
+  border-radius: 7px;
+}
+
+.wp{
+  float: right;
+}
+
+.me-2, .btn{
+  height: 50%;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.me-2{
+  margin-left: 6.25rem;
+}
+
+.btn{
+  border-color: darkgreen;
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  padding: 0;
+  padding-right: 12px;
+  padding-left: 12px;
+}
+
+.btn:hover{
+  border-color: black;
+  background-color: black;
+  color: black;
+}
+
+.fa-whatsapp-square{
+  height: 200%;
+  width: 200%;
+}
+/* nav */
+
+.intro-div{
+  text-align: center;
+  padding-top: 1.875rem;
+}
+
+.intro{
+  margin-top: 1.25rem;
+  font-family: 'ProductSans';
+}
+
+.card{
+  padding: 0.4rem;
+  border-color: white;
+  /* border-width: medium; */
+  border-width: 0.125;
+  background-color: black;
+  border-radius: 5px;
+  transition: transform .5s;
+  height: 125px;
+  width: 300px;
+  margin: 0;
+}
+
+/* .card-img-top{
+  transition: transform .2s;
+} */
+.card:hover{
+  transform: scale(0.9);
+  background-color: white;
+  color: #000000;
+}
+
+
+
+.input-box {
+  background: black;
+  border: none;
+  box-shadow: 0.313rem 0.313rem 1.125rem 0 rgba(25, 25, 25, 0.35);
+  width: 25rem;
+  height: 1.875rem;
+  border-radius: 0.3125rem;
+  padding: 0.625rem;
+  margin-bottom: 0.625rem;
+  font-family: 'ProductSans', sans-serif;
+}
+
+.input-box:focus {
+  background: black;
+  border: none;
+  box-shadow: 0.313rem 0.313rem 1.125rem 0 rgba(25, 25, 25, 0.35);
+  width: 25rem;
+  height: 1.875rem;
+  border-radius: 0.3125rem;
+  padding: 0.625rem;
+  margin-bottom: 0.625rem;
+  font-family: 'ProductSans';
+  outline: none;
+}
+
+.vids {
+  text-align: center;
+}
+
+.q{
+  color: black;
+}
+
+.utl-logos{
+  height: 30px;
+  width: 30px;
+  margin: 0.625rem;
+}
+
+.list-item{
+  font-family: 'ProductSans';
+}
+
+.dropdown-menu{
+  width: 250px;
+  padding: 0;
+  background: black;
+  border-radius: 8px;
+  border-color: white;
+  border-width: 2px;
+}
+
+
+.dropdown-menu1{
+  width: 0;
+  height: 0;
+  font-family: 'ProductSans';
+}
+
+.dropdown-menu1:focus{
+  width: 0;
+  height: 0;
+  font-family: 'ProductSans';
+}
+
+#msg{
+  border-style: solid;
+  border: 2px;
+  text-indent: 3px;
+  border-radius: 0.3125rem;
+  background-color: black;
+  color: white;
+}
+
+.clipboard-save{
+  background-color: black;
+  color: white;
+  border: none;
+  outline: none;
+  border-radius: 7px;
+}
+
+#msg:focus{
+  outline: none;
+  border: none;
+}
+
+.dropdown-menu2{
+  width: 250px;
+}
+
+.mcq-ans-1{
+  color: green;
+  font-family: 'ProductSans';
+  font-weight: bold;
+  font-size: 24px;
+  visibility: hidden;
+}
+
+.mcq-q{
+  font-size: 1.5rem;
+  font-family: 'ProductSans';
+  font-weight: 600;
+}
+
+.mcq-op{
+  font-size: 20px;
+  font-family: 'ProductSans';
+  margin-left: 10px;
+}
+
+.visible{
+  visibility: visible;
+}
+
+.sidenav {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #000000;
+  overflow-x: hidden;
+}
+
+.sidenavleft {
+  height: 100%;
+  max-width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3rem;
+  z-index: 1;
+  background-color: #000000;
+  overflow-x: hidden;
+  padding: 1rem;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: grey;
+}
+
+.sidenav a ,.sidenavleft a {
+  padding: 6px 16px 6px 16px;
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+  text-decoration: none;
+  font-size: 1rem;
+  font-family: 'AvenirRegular';
+  color: #818181;
+  display: block;
+  border-style: solid;
+  border-width: 1px;
+  border-color: grey;
+  border-radius: 5px;
+  transition: transform .5s;
+}
+
+.sidenav a:hover ,.sidenavleft a:hover{
+  color: green;
+  border-color: green;
+  transform: scale(1.01);
+}
+
+.maindiv {
+  margin-right: 250px; /* Same width as the sidebar + left position in px */
+  font-size: 28px; /* Increased text to enable scrolling */
+
+}
+
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+}
+
+.leftpanelcards {
+  padding-top: 250px;
+}
+
+.parent-div {
+  max-width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3rem;
+  z-index: 1;
+}
+
+.input-box{
+  background: white;
+  border-style: solid;
+  border-color: grey;
+  box-shadow: 0.313rem 0.313rem 1.125rem 0 rgba(25, 25, 25, 0.35);
+  border-radius: 5px;
+}
+
+.input-box:focus{
+  background: whitesmoke;
+  border-style: solid;
+  border-color: green;
+}
+
+.indcodeinput {
+  background: white;
+  border-style: solid;
+  border-color: grey;
+  box-shadow: 0.313rem 0.313rem 1.125rem 0 rgba(25, 25, 25, 0.35);
+  border-radius: 5px;
+}
