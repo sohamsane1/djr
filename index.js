@@ -17,9 +17,9 @@ function gsearch() {
 }
 
 function indcodesearch() {
-  var searchValue = document.getElementById("indcodeinput").value;
+  var searchValue = document.getElementById("input-box-ind").value;
   if (searchValue === "") {
-    document.getElementById("indcodeinput").placeholder = "Enter a Term/Phrase."
+    document.getElementById("input-box-ind").placeholder = "Enter a Term/Phrase."
   } else {
     window.open("https://www.indiacode.nic.in/handle/123456789/1362//simple-search?page-token=d2aee73c186f&page-token-value=70710c73ab4d0282e57b36673e1522e8&nccharset=22925F11&query=" + searchValue);
   }
