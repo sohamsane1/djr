@@ -341,6 +341,7 @@ h1{
   border-color: grey;
   box-shadow: 0.313rem 0.313rem 1.125rem 0 rgba(25, 25, 25, 0.35);
   border-radius: 5px;
+  max-width: 20rem;
 }
 
 .input-box:focus{
@@ -355,6 +356,7 @@ h1{
   border-color: grey;
   box-shadow: 0.313rem 0.313rem 1.125rem 0 rgba(25, 25, 25, 0.35);
   border-radius: 5px;
+  max-width: 20rem;
 }
 
 .input-box-ind:focus{
